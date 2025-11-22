@@ -1,0 +1,33 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "school lunch viewer",
+      "intents": [
+        {
+          "name": "GetFiveDayMenuIntent",
+          "slots": [],
+          "samples": [
+            "what's on the menu",
+            "show me the lunch menu",
+            "what's for lunch this week",
+            "show me this week's meals",
+            "give me the five day menu"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
